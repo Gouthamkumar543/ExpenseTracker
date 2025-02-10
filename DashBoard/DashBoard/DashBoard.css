@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+}
+.Div_container{
+    background-color: #fff;
+}
+.Div_container > .nav{
+    background-color: rgb(255, 166, 0);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Div_container > .nav > h1{
+    padding-left: 10%;
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+}
+.Div_container > .nav > p{
+    font-size: 1.2rem;
+    color: black;
+}
+.Div_container > .nav > button{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-right: 5%;
+    height: 30px;
+}
+.Div_container > .nav > button{
+    border: 0;
+}
+.Div_container > .nav > button:hover{
+    background-color: rgb(195, 247, 247);
+}
+.container{
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+#div_1{
+    display: flex;
+    flex-direction: column;
+}
+#div_1,#div_2{
+    width: 40%;
+}
+.container > #div_1 > h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container > #div_1 > h1{
+    color: rgb(255, 166, 0);
+    font-size: 3rem;
+}
+
+.inc_exp_container {
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.inc_exp_container > div{
+    flex: 1;
+    text-align: center;
+}
+.inc_exp_container > div:first-of-type {
+    border-right: 1px solid black;
+}
+.inc_exp_container > div > h4{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.money-plus {
+    color: #2ecc71;
+    font-size: 1.3rem;
+}
+.money-minus {
+    color: #c0392b;
+    font-size: 1.3rem;
+
+}
+h3{
+    border-bottom: 1px solid #2A004E;
+    padding-bottom: 5px;
+    margin: 30px 0 10px 0;
+    font-size: 1.5rem;
+}
+.list{
+    height: 250px;
+    overflow-y: scroll;
+    list-style-type: none;
+}
+.list li{
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    padding-right: 40px;
+    margin: 10px 0;
+}
+.list li.plus {
+    border-right: 5px solid #2ecc71;
+}
+.list li.minus {
+    border-right: 5px solid #c0392b;
+}
+#form > div > label{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#text,#amount,#date{
+    width: 100%;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    display: block;
+    font-size: 1rem;
+    padding: 10px;
+}
+#ex{
+    padding-bottom: 10px;
+}
+.btn,.chart{
+    cursor: pointer;
+    background-color:rgb(255, 166, 0);
+    color: #fff;
+    border: 0;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.btn:hover{
+    color: black;
+    background-color: rgb(195, 247, 247);
+}
+.delete-btn{
+    cursor: pointer;
+    background-color: #e74c3c;
+    border: 0;
+    color: #fff;
+    font-size: 15px;
+    padding: 2px 10px;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.list li:hover > .delete-btn{
+    opacity: 1;
+}
+#chart_container{
+    display: flex;
+    justify-content: center;
+}
+#chart{
+    width: 70%;
+    border: 1px solid rgb(255, 166, 0);
+    border-radius: 10%;
+    padding: 5%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: center;
+}
+#chartTypeSelect{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 5%;
+}
+#myChart{
+    width: 70% !important;
+    height: 90% !important;
+}
+#footer{
+    background-color: rgb(255, 166, 0);
+    text-align: center;
+    color: #fff;
+    margin: 2% 0;
+    padding: 1% 0;
+}
+
+
+@media screen and (max-width:600px) {
+    .Div_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+    #div_1,#div_2{
+        width: 100%;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+    #text, #amount {
+        font-size: 0.9rem;
+    }
+}

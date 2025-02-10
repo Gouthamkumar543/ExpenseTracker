@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#Div_Container{
+    background: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(https://media.istockphoto.com/id/1424757003/photo/budget-and-financial-planning-concept-including-a-management-or-executive-cfo-estimating-the.jpg?s=612x612&w=0&k=20&c=-qReHcxce_QnKsWlvV1x7jOndAAjPpiuFR7fZ7AUfQ0=);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#logo{
+    font-size: 2.3rem;
+    text-decoration: none;
+    color: rgb(240, 173, 50);
+    padding-top: 2%;
+    padding-left: 2%;
+}
+#logo > strong{
+    color: #fff;
+}
+#logo:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+#logo:active{
+    color: rgb(35, 92, 168);
+}
+#logo > strong:active{
+    color: rgb(35, 92, 168); 
+}
+#LoginPage{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.9);
+    border: 1px solid #fff;
+    width: 25%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 6%;
+    border-radius: 30px;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+#heading{
+    color: #fff;
+    padding-bottom: 10%;
+    font-size: 2.5rem;
+}
+#LoginPage > i{
+    font-size: 1.5rem;
+    color: grey;
+}
+#LoginPage > input{
+    background: transparent;
+    width: 45%;
+    border: transparent;
+    border-bottom: 1px solid #fff;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    font-size: 1rem;
+    margin-bottom: 3%;
+    color: #fff !important;
+}
+#LoginPage >input::placeholder {
+    color: #fff;  
+    opacity: 1;
+}
+#LoginPage > input:focus{
+    background-color: black;
+}
+#Submit{
+    background-color: grey;
+    padding: 2%;
+    width: 100px;
+    margin-top:5%;
+    border-radius: 10px;
+}
+#Submit:active{
+    background-color: rgb(46, 124, 46);
+}

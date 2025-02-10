@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.15.10/sweetalert2.min.css"/>
+</head>
+<body>
+    <div id="Div_Container">
+        <h1 id="logo"><i class="fa-solid fa-money-bill-trend-up"></i>Expense<strong>Tracker</strong></h1>
+        <div id="Div_Container1">
+            <form action="" id="SignUp">
+                <h1 id="heading">SignUp</h1>
+                <i class="fa-solid fa-user">  </i>
+                <input type="text" placeholder="Enter your Name" id="Name">
+                <p id="N_Error"></p>
+                <i class="fa-solid fa-envelope">  </i>
+                <input type="email" placeholder="Email Address" id="Email">
+                <p id="E_Error"></p>
+                <i class="fa-solid fa-lock">  </i>
+                <input type="password" placeholder="Enter your Password" id="Password">
+                <p id="P_Error"></p>
+                <i class="fa-solid fa-check-double">  </i>
+                <input type="password" placeholder="Confirm Password" id="C_Password">
+                <p id="CP_Error"></p>
+                <button type="submit" id="Submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.15.10/sweetalert2.min.js"></script>
+    <script type="module" src="./Signup.js"></script>
+</body>
+</html>

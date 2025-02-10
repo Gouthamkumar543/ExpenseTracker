@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#Div_Container{
+    background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://media.istockphoto.com/id/2153471752/photo/businesswoman-use-laptop-and-calculator-analyzing-company-growth-future-business-growth-arrow.jpg?s=612x612&w=0&k=20&c=4UaUzebfHxW88CU6C34FzeiKWdv4wFBtVTy2oGzO7ao=);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+#logo{
+    color: rgb(255, 166, 0);
+    font-size: 30px;
+    padding-left: 35px;
+    font-weight: bolder;
+}
+.navbar-toggler-icon {
+    background-color: white;
+}
+.nav-link{
+    font-weight: bolder !important;
+}
+#logo:hover, .nav-link:hover {
+    color: rgb(255, 166, 0) !important;
+} 
+.btn-primary, .btn-secondary{
+    background-color:rgb(255, 166, 0) !important;
+    border-color:rgb(255, 166, 0) !important;
+}
+.btn-primary:active, .btn-secondary:active{
+    color: rgb(255, 166, 0) !important;
+    background-color: lightgrey !important;
+    border: lightgrey !important;
+}
+#Content{
+    margin-left: 0%;
+    width: 50%;
+    color: #fff;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+#Content > h1{
+    font-size: 3.5rem;
+    padding-bottom: 2%;
+}
+#Content > h1 > strong{
+    color: rgb(255, 166, 0);
+}
+#Content > p{
+    font-size: 1.4rem;
+}
+#HomeSection{
+    margin-top: 5%;
+    border-radius: 10px;
+    border: 1px black solid;
+    padding: 5% 5%;
+}
+#HomeSection > h2 > strong{
+    color: rgb(255, 166, 0);
+}
+.testimonial{
+    padding-bottom: 3%;
+}
+#AboutSection{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    border: 1px black solid;
+    padding: 5% 5%;
+}
+#AboutSection > h2 > strong{
+    color: rgb(255, 166, 0);
+}
+#footer{
+    padding-top: 10px !important;
+    padding-bottom: 1px !important;
+}
+#footer > div > p{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+
+/* @media screen and (min-width=380px) and (max-width=780px){
+    #Content {
+        width: 100% !important;
+        height: 100px !important;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .display-6 {
+        font-size: 1.5rem;
+    }
+    p {
+        text-align: justify;
+    }
+} */
