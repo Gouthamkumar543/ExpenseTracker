@@ -15,15 +15,19 @@ html,body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0px 2px 5px black;
 }
 .Div_container > .nav > h1{
+    padding: 10px 0;
     padding-left: 10%;
     font-size: 2.8rem;
     letter-spacing: 1px;
+    text-shadow: 0px 2px 2px black;
 }
 .Div_container > .nav > p{
     font-size: 1.2rem;
     color: black;
+    text-shadow: 0px 2px 2px #fff;
 }
 .Div_container > .nav > button{
     display: flex;
@@ -119,6 +123,8 @@ h3{
     border-right: 5px solid #c0392b;
 }
 #form > div > label{
+    font-size: 1.3rem;
+    font-weight: bolder;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -186,11 +192,13 @@ h3{
     height: 90% !important;
 }
 #footer{
+    font-family: 'Times New Roman', Times, serif;
     background-color: rgb(255, 166, 0);
     text-align: center;
     color: #fff;
     margin: 2% 0;
-    padding: 1% 0;
+    padding: 10px 0;
+    text-shadow: 0px 2px 2px black;
 }
 
 
