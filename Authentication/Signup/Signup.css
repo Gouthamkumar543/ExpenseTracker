@@ -1,35 +1,42 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
-#Div_Container{
-    background: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(https://www.crazylaura.com/wp-content/uploads/2019/05/simple-bujo-expense-spread-ideas.jpg);
-    background-size: cover; 
-    background-position: center; 
+
+#Div_Container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(https://www.crazylaura.com/wp-content/uploads/2019/05/simple-bujo-expense-spread-ideas.jpg);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
 }
-#logo{
+
+#logo {
     font-size: 2.3rem;
     text-decoration: none;
     color: rgb(240, 173, 50);
     padding-top: 2%;
     padding-left: 2%;
 }
-#logo > strong{
+
+#logo>strong {
     color: #fff;
 }
-#logo:hover{
+
+#logo:hover {
     cursor: pointer;
     text-decoration-line: underline;
 }
-#logo:active{
+
+#logo:active {
     color: rgb(35, 92, 168);
 }
-#logo > strong:active{
-    color: rgb(35, 92, 168); 
+
+#logo>strong:active {
+    color: rgb(35, 92, 168);
 }
-#Div_Container1{
+
+#Div_Container1 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -37,24 +44,28 @@
     align-items: center;
     padding-top: 5%;
 }
-#SignUp{
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+
+#SignUp {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     border: 1px solid black;
     width: 25%;
     text-align: center;
     padding: 4% 0;
     border-radius: 30px;
 }
-#heading{
+
+#heading {
     color: #fff;
     padding-bottom: 10%;
     font-size: 2.5rem;
 }
-#SignUp > i{
+
+#SignUp>i {
     font-size: 1.5rem;
     color: black;
 }
-#SignUp > input{
+
+#SignUp>input {
     background: transparent;
     width: 45%;
     border: transparent;
@@ -66,23 +77,89 @@
     margin-bottom: 3%;
     color: #fff !important;
 }
-#SignUp >input::placeholder {
-    color: #fff;  
+
+#SignUp>input::placeholder {
+    color: #fff;
     opacity: 1;
 }
-#SignUp > input:focus{
+
+#SignUp>input:focus {
     background-color: black;
 }
-p{
+
+p {
     color: red;
 }
-#Submit{
+
+#Submit {
     background-color: grey;
     padding: 2%;
     width: 100px;
-    margin-top:2%;
+    margin-top: 2%;
     border-radius: 10px;
 }
-#Submit:active{
+
+#Submit:active {
     background-color: rgb(46, 124, 46);
+}
+
+@media screen and (max-width: 600px) {
+    #logo {
+        font-size: 1.8rem;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    #Div_Container1 {
+        padding-top: 15%;
+    }
+    #SignUp {
+        width: 80%;
+        padding: 5% 0;
+    }
+    #heading {
+        font-size: 2rem;
+        padding-bottom: 8%;
+    }
+    #SignUp>input {
+        width: 80%;
+    }
+    #Submit {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #logo {
+        font-size: 2rem;
+        padding-top: 3%;
+        padding-left: 3%;
+    }
+    #SignUp {
+        width: 50%;
+    }
+    #heading {
+        font-size: 2.2rem;
+        padding-bottom: 8%;
+    }
+    #SignUp>input {
+        width: 60%;
+    }
+    #Submit {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #SignUp {
+        width: 25%;
+    }
+    #heading {
+        font-size: 2.5rem;
+    }
+    #SignUp>input {
+        width: 45%;
+    }
+    #Submit {
+        width: 100px;
+    }
 }

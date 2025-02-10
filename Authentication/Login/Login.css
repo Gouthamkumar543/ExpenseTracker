@@ -78,3 +78,41 @@
 #Submit:active{
     background-color: rgb(46, 124, 46);
 }
+
+@media screen and (max-width: 768px) {
+    #logo {
+        font-size: 2rem;
+        padding-left: 3%;
+    }
+    #Div_Container1 {
+        padding-top: 1%;
+    }
+    #LoginPage {
+        width: 50%;
+        margin-left: 10%;
+    }
+    #heading {
+        font-size: 2.2rem;
+    }
+    #LoginPage > input {
+        width: 60%;
+    }
+    #Submit {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #LoginPage {
+        width: 50%;
+    }
+    #heading {
+        font-size: 2.5rem;
+    }
+    #LoginPage > input {
+        width: 45%;
+    }
+    #Submit {
+        width: 100px;
+    }
+}
